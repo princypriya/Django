@@ -6,3 +6,4 @@ class Employees(models.Model):
     employeename = models.CharField(max_length=100)
     empphone = models.CharField(max_length=12)
     salarly = models.IntegerField()
+    exp = models.IntegerField()
